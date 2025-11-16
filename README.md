@@ -1,7 +1,3 @@
-Here is the concise README, translated into English as requested:
-
------
-
 # CFD-DC: Cooperative Classification via Adaptive Compressed-Feature Diffusion over Distributed Networks
 
 This repository contains the code for the paper "CFD-DC: Cooperative Classification via Adaptive Compressed-Feature Diffusion over Distributed Networks".
@@ -13,7 +9,7 @@ In our approach, nodes collaborate by broadcasting highly compressed feature rep
 1.  A **trainable feature compressor** at each node to reduce data transmission while preserving critical information.
 2.  An **adaptive node weighting mechanism** that dynamically adjusts the influence of features from other nodes, providing robustness against failures.
 
-## 🔧 Core Code Structure
+## Core Code Structure
 
   * **`models.py`**:
 
@@ -35,4 +31,4 @@ You can run the training for a multi-view dataset (e.g., Handwritten) using the 
 
 ```bash
 python train_multiview.py --dataset Handwritten --dg 8
-``
+```
