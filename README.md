@@ -2,9 +2,9 @@
 
 This repository contains the code for the paper "CFD-DC: Cooperative Classification via Adaptive Compressed-Feature Diffusion over Distributed Networks".
 
-This paper introduces CFD-DC, a novel framework for decentralized classification in distributed sensor networks. It is designed to address the key challenges of limited communication bandwidth and the risk of node failures.
+This paper introduces CFD-DC, a novel framework for distributed inference over sensor networks. It is designed to address the key challenges of limited communication bandwidth and the risk of node failures.
 
-In our approach, nodes collaborate by broadcasting highly compressed feature representations. The framework is built on two key components:
+In our approach, nodes collaborate by broadcasting compressed feature representations. The framework is built on two key components:
 
 1.  A **trainable feature compressor** at each node to reduce data transmission while preserving critical information.
 2.  An **adaptive node weighting mechanism** that dynamically adjusts the influence of features from other nodes, providing robustness against failures.
