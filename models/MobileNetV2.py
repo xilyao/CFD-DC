@@ -82,7 +82,7 @@ class MobileNetV2(nn.Module):
         input_channel = 32
         last_channel = 1280
         interverted_residual_setting = [
-            # t, c, n, s  s表示stride: nn.AvgPool2d(stride)
+           
             [1, 16, 1, 1],
             [6, 24, 2, 2],
             [6, 32, 3, 2],
@@ -166,5 +166,6 @@ class MobileNetV2(nn.Module):
         embedding = F.dropout(x, p=0.5, training=self.training)
 
         output_dict = {'embedding': embedding}
+
 
         return output_dict
