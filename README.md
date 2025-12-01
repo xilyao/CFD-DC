@@ -23,11 +23,11 @@ In our approach, each node performs local inference using its own features and l
 
 ## Data Preparation
 
-The underwater acoustic experiments use pre-processed feature. The files `underwater_embedding_20.pt` and `underwater_y.pt` are hosted on Google Drive: 
+The underwater acoustic experiments require pre-processed features. The files `underwater_embedding_20.pt` and `underwater_y.pt` are hosted on Google Drive: https://drive.google.com/drive/folders/1dy79RGW_Iia7wsIWs1jKhbSP5-y777Ec?usp=sharing
 
 ## Example Run Command
 
-You can use the following command to reproduce the results of Table 4 on a multi-view dataset (e.g., Handwritten):
+You can use the following command to reproduce the results in Table 4 on a multi-view dataset (e.g., Handwritten):
 
 ```bash
 python train_multiview.py --dataset Handwritten --dg 8
