@@ -23,7 +23,7 @@ In our approach, each node performs local inference using its own features and l
 
 ## Data Preparation
 
-The underwater acoustic experiments require pre-processed features. The files `underwater_embedding_20.pt` (for the scenario with a **20% node failure rate**) and `underwater_y.pt` are hosted on Google Drive: https://drive.google.com/drive/folders/1dy79RGW_Iia7wsIWs1jKhbSP5-y777Ec?usp=sharing
+The underwater acoustic experiments require pre-processed features. The files `underwater_embedding_20.pt` (for the scenario with a 20% node failure rate) and `underwater_y.pt` are hosted on Google Drive: https://drive.google.com/drive/folders/1dy79RGW_Iia7wsIWs1jKhbSP5-y777Ec?usp=sharing
 
 ## Example Run Command
 
